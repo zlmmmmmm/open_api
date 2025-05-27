@@ -10,13 +10,14 @@ import com.zlm.openapi.model.dto.post.PostQueryRequest;
 import com.zlm.openapi.model.dto.postfavour.PostFavourAddRequest;
 import com.zlm.openapi.model.dto.postfavour.PostFavourQueryRequest;
 import com.zlm.openapi.model.entity.Post;
-import com.zlm.openapi.model.entity.User;
 import com.zlm.openapi.model.vo.PostVO;
 import com.zlm.openapi.service.PostFavourService;
 import com.zlm.openapi.service.PostService;
 import com.zlm.openapi.service.UserService;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+
+import com.zlm.zlmapicommon.model.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

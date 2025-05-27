@@ -5,11 +5,12 @@ import com.zlm.openapi.common.ErrorCode;
 import com.zlm.openapi.common.ResultUtils;
 import com.zlm.openapi.exception.BusinessException;
 import com.zlm.openapi.model.dto.postthumb.PostThumbAddRequest;
-import com.zlm.openapi.model.entity.User;
 import com.zlm.openapi.service.PostThumbService;
 import com.zlm.openapi.service.UserService;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+
+import com.zlm.zlmapicommon.model.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

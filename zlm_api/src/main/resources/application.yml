@@ -3,3 +3,8 @@ server:
   port: 8123
   servlet:
     context-path: /api
+
+zlmapi:
+  client:
+    access-key: 1aafda457e7371cc255e7299eeb50071
+    secret-key: 510c808806af71866c15164af6fb3fa4

@@ -8,13 +8,14 @@ import com.zlm.openapi.constant.FileConstant;
 import com.zlm.openapi.exception.BusinessException;
 import com.zlm.openapi.manager.CosManager;
 import com.zlm.openapi.model.dto.file.UploadFileRequest;
-import com.zlm.openapi.model.entity.User;
 import com.zlm.openapi.model.enums.FileUploadBizEnum;
 import com.zlm.openapi.service.UserService;
 import java.io.File;
 import java.util.Arrays;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+
+import com.zlm.zlmapicommon.model.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.lang3.RandomStringUtils;
 import org.springframework.web.bind.annotation.PostMapping;

@@ -2,7 +2,7 @@ package com.zlm.openapi.service;
 
 import com.zlm.openapi.model.entity.PostThumb;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.zlm.openapi.model.entity.User;
+import com.zlm.zlmapicommon.model.entity.User;
 
 /**
  * 帖子点赞服务

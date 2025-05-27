@@ -1,15 +1,9 @@
 package com.zlm.openapi.service;
 
-import com.baomidou.mybatisplus.core.conditions.Wrapper;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.zlm.openapi.model.dto.interfaceInfo.InterfaceInfoAddRequest;
 import com.zlm.openapi.model.dto.interfaceInfo.InterfaceInfoQueryRequest;
-import com.zlm.openapi.model.dto.post.PostQueryRequest;
-import com.zlm.openapi.model.entity.InterfaceInfo;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.zlm.openapi.model.entity.Post;
-
-import javax.servlet.http.HttpServletRequest;
+import com.zlm.zlmapicommon.model.entity.InterfaceInfo;
 
 /**
 * @author admin

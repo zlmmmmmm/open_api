@@ -16,7 +16,6 @@ import com.zlm.openapi.model.dto.user.UserQueryRequest;
 import com.zlm.openapi.model.dto.user.UserRegisterRequest;
 import com.zlm.openapi.model.dto.user.UserUpdateMyRequest;
 import com.zlm.openapi.model.dto.user.UserUpdateRequest;
-import com.zlm.openapi.model.entity.User;
 import com.zlm.openapi.model.vo.LoginUserVO;
 import com.zlm.openapi.model.vo.UserVO;
 import com.zlm.openapi.service.UserService;
@@ -26,6 +25,7 @@ import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import com.zlm.zlmapicommon.model.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import me.chanjar.weixin.common.bean.WxOAuth2UserInfo;
 import me.chanjar.weixin.common.bean.oauth2.WxOAuth2AccessToken;

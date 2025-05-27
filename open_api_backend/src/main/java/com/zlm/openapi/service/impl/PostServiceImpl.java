@@ -15,7 +15,6 @@ import com.zlm.openapi.model.dto.post.PostQueryRequest;
 import com.zlm.openapi.model.entity.Post;
 import com.zlm.openapi.model.entity.PostFavour;
 import com.zlm.openapi.model.entity.PostThumb;
-import com.zlm.openapi.model.entity.User;
 import com.zlm.openapi.model.vo.PostVO;
 import com.zlm.openapi.model.vo.UserVO;
 import com.zlm.openapi.service.PostService;
@@ -29,6 +28,8 @@ import java.util.Set;
 import java.util.stream.Collectors;
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;
+
+import com.zlm.zlmapicommon.model.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import cn.hutool.core.collection.CollUtil;
 import org.apache.commons.lang3.ObjectUtils;

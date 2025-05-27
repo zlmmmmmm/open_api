@@ -7,10 +7,11 @@ import com.zlm.openapi.exception.BusinessException;
 import com.zlm.openapi.mapper.PostThumbMapper;
 import com.zlm.openapi.model.entity.Post;
 import com.zlm.openapi.model.entity.PostThumb;
-import com.zlm.openapi.model.entity.User;
 import com.zlm.openapi.service.PostService;
 import com.zlm.openapi.service.PostThumbService;
 import javax.annotation.Resource;
+
+import com.zlm.zlmapicommon.model.entity.User;
 import org.springframework.aop.framework.AopContext;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

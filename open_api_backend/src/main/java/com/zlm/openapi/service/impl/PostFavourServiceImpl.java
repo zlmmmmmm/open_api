@@ -10,10 +10,11 @@ import com.zlm.openapi.exception.BusinessException;
 import com.zlm.openapi.mapper.PostFavourMapper;
 import com.zlm.openapi.model.entity.Post;
 import com.zlm.openapi.model.entity.PostFavour;
-import com.zlm.openapi.model.entity.User;
 import com.zlm.openapi.service.PostFavourService;
 import com.zlm.openapi.service.PostService;
 import javax.annotation.Resource;
+
+import com.zlm.zlmapicommon.model.entity.User;
 import org.springframework.aop.framework.AopContext;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

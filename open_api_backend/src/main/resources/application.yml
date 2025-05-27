@@ -23,7 +23,7 @@ spring:
   # todo 需替换配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://123.249.84.90:3306/api_platform
+    url: jdbc:mysql://localhost/api_platform
     username: root
     password: zlm123
   # Redis 配置
@@ -63,6 +63,12 @@ mybatis-plus:
       logic-delete-field: isDelete # 全局逻辑删除的实体字段名
       logic-delete-value: 1 # 逻辑已删除值（默认为 1）
       logic-not-delete-value: 0 # 逻辑未删除值（默认为 0）
+
+zlmapi:
+  client:
+    access-key: 1aafda457e7371cc255e7299eeb50071
+    secret-key: 510c808806af71866c15164af6fb3fa4
+
 # 微信相关
 wx:
   # 微信公众平台
@@ -103,3 +109,17 @@ knife4j:
         api-rule: package
         api-rule-resources:
           - com.zlm.openapi.controller
+
+# 以下配置指定了应用的名称、使用的协议（Dubbo）、注册中心的类型（Nacos）和地址
+dubbo:
+  application:
+    # 设置应用的名称
+    name: dubbo-springboot-demo-provider
+  # 指定使用 Dubbo 协议，且端口设置为 -1，表示随机分配可用端口
+  protocol:
+    name: dubbo
+    port: 22221
+  registry:
+    # 配置注册中心为 Nacos，使用的地址是 nacos://localhost:8848
+    id: nacos-registry
+    address: nacos://localhost:8848

@@ -1,7 +1,7 @@
 package com.zlm.openapi.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.zlm.openapi.model.entity.User;
+import com.zlm.zlmapicommon.model.entity.User;
 
 /**
  * 用户数据库操作

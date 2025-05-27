@@ -1,7 +1,7 @@
 package com.zlm.openapi.mapper;
 
-import com.zlm.openapi.model.entity.InterfaceInfo;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.zlm.zlmapicommon.model.entity.InterfaceInfo;
 
 /**
 * @author admin

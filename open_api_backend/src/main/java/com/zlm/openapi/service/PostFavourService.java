@@ -6,7 +6,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.zlm.openapi.model.entity.Post;
 import com.zlm.openapi.model.entity.PostFavour;
-import com.zlm.openapi.model.entity.User;
+import com.zlm.zlmapicommon.model.entity.User;
 
 /**
  * 帖子收藏服务
